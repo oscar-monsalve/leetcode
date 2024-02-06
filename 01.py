@@ -12,3 +12,20 @@
 # Output: [0,1]
 # Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
+class Solution:
+    def __init__(self, numbs, target):
+        self.numbs = numbs
+        self.target = target
+
+    def TwoSum(self):
+        for i in self.numbs:
+            print(self.numbs.index(i))
+
+        if self.target == 0:
+            pass
+
+
+lst = [1, 2, 3, 4]
+
+a = Solution(lst, 0)
+a.TwoSum()

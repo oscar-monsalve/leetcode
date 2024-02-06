@@ -1,3 +1,3 @@
-# LeetCode exercises
+# LeetCode
 
-Trying to solve the exercises
+Trying to solve LeetCode exercises
